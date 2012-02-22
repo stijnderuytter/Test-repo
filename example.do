@@ -6,3 +6,6 @@ gen x=uniform()
 gen y=invnorm(uniform())
 
 gen e=2*invnorm(uniform())
+
+
+reg y x e
